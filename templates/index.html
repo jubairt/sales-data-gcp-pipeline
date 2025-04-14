@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File to GCS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+            color: #1f4037;
+            font-size: 28px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 30px;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        .btn-upload {
+            background: linear-gradient(to right, #4CAF50, #45a049);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn-upload:hover {
+            background: linear-gradient(to right, #45a049, #4CAF50);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>📤 Upload to GCS</h1>
+    <p>Select a CSV file to upload to your Google Cloud bucket.</p>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button class="btn-upload" type="submit">Upload File</button>
+    </form>
+</div>
+
+</body>
+</html>
