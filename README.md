@@ -19,13 +19,13 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 ## 🧱 Architecture
 
-![Web App Overview](WebPage.png)
+![Web App Overview](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/WepPage.png)
 *Flask Web App for Uploading Sales Files*
 
-![Sales Summary Dashboard](SalesSummary.png)
+![Sales Summary Dashboard](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/Dashboard/SalesSummary.png)
 *Looker Studio - Sales Summary View*
 
-![Sales Detailed Dashboard](SalesDetailed.png)
+![Sales Detailed Dashboard](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/Dashboard/SalesDetailed.png)
 *Looker Studio - Sales Detailed View*
 
 ---
@@ -52,7 +52,7 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 ### 5. **Visualization with Looker Studio**
 - Looker Studio dashboards connect to BigQuery datasets.
-- Users can filter by country, region, and sales channel.
+- Users can filter by country and Invoice NO.
   
 ---
 
@@ -61,7 +61,7 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 | File | Description |
 |------|-------------|
 | `app.py` | Flask web app to upload sales files |
-| `upload.html` | Frontend form for file uploads |
+| `index.html` | Frontend form for file uploads |
 | `function.py` | Google Cloud Function to load CSVs into BigQuery |
 | `requirements.txt` | Python package dependencies |
 | `data.csv`, `ISR_data.csv`, etc. | Example data files |
@@ -75,7 +75,7 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 View the live interactive dashboards hosted on Looker Studio:
 
-👉 **[Click here for the dashboard](https://lookerstudio.google.com/s/...)** (Replace with your actual link)
+👉 **[Click here for the dashboard](https://lookerstudio.google.com/reporting/bca6e02a-8db7-498c-9ff1-5dd44f48d84c)
 
 ---
 
@@ -83,5 +83,5 @@ View the live interactive dashboards hosted on Looker Studio:
 
 This project showcases the end-to-end automation of a real-world **sales data pipeline** using GCP services. From a user-friendly Flask web app to automated ingestion and BigQuery analysis, the system is designed to be scalable, efficient, and insightful.
 
-Whether you're building an internal analytics tool, a business intelligence dashboard, or exploring GCP’s ETL capabilities, this project offers a hands-on foundation for cloud-native data engineering. 🛒☁️📊
+Whether you're building an internal analytics tool, a business intelligence dashboard, or exploring GCP’s ETL capabilities, this project offers a hands-on foundation for cloud-native data engineering. 
 
