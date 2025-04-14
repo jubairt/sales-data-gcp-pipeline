@@ -75,7 +75,7 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 View the live interactive dashboards hosted on Looker Studio:
 
-👉 **[Click here for the dashboard](https://lookerstudio.google.com/reporting/bca6e02a-8db7-498c-9ff1-5dd44f48d84c)
+👉 [Click here for the dashboard](https://lookerstudio.google.com/reporting/bca6e02a-8db7-498c-9ff1-5dd44f48d84c)
 
 ---
 
