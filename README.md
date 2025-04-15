@@ -71,14 +71,6 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 ---
 
-## 📊 Live Dashboard
-
-View the live interactive dashboards hosted on Looker Studio:
-
-👉 [Click here for the dashboard](https://lookerstudio.google.com/reporting/bca6e02a-8db7-498c-9ff1-5dd44f48d84c)
-
----
-
 ## ✅ Conclusion
 
 This project showcases the end-to-end automation of a real-world **sales data pipeline** using GCP services. From a user-friendly Flask web app to automated ingestion and BigQuery analysis, the system is designed to be scalable, efficient, and insightful.
