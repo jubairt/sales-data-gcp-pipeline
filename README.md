@@ -19,9 +19,9 @@ This project implements a complete sales data pipeline using **Google Cloud Plat
 
 ## 🧱 Architecture
 
-![architecture]()
+![architecture](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/Architecture.png)
 
-![Web App Overview](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/Architecture.png)
+![Web App Overview](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/WepPage.png)
 *Flask Web App for Uploading Sales Files*
 
 ![Sales Summary Dashboard](https://github.com/jubairt/sales-data-gcp-pipeline/blob/main/Dashboard/SalesSummary.png)
